@@ -1,0 +1,43 @@
+# Number Chain
+
+Chain up the numbers
+
+
+## Instructions
+
+
+* Using a while loop, ask the user "How many numbers?", then print out a chain of ascending numbers, starting at 0.
+
+
+* After the results have printed ask the user if they would like to continue.
+
+  
+* If "y", restart the process, starting at 0 again.
+
+  
+* If "n", exit the chain.
+
+
+
+## Bonus
+
+* Rather than just displaying numbers constantly starting at 0, have the numbers begin at the end of the previous chain.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+continueNumbers = ""
+startingNum = 0
+numofNum = 0
+
+while continueNumbers == 'y'
+  numOfNum = input("How many numbers?: ")
+    for i = 0 to numOfNum
+       print(i)
+       i = i+1
+    end for
+    startingNum = startingNum + i
+   continueNumbers = input(Would you like to continue?  enter y or n: ")
+note:  variable that captures last number, and use that as the starting number next round.  add numOfNum to the print()?
+note:  find while and for syntax
+note: going to bed
